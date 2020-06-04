@@ -55,7 +55,8 @@ class Song
     song = self.new
     song.name = name
     song.artist_name = artist_name
-    @@all <<
+    file_name = "#{name} - #{artist_name}.mp3"
+    @@all << file.name
 
 
   end
