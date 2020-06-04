@@ -58,9 +58,6 @@ class Song
     song.name = song_array[1]
     song.name = song_array[0]
     song
-
-
-
   end
 
   def self.destroy_all
