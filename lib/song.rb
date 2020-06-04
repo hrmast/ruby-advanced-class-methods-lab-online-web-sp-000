@@ -50,13 +50,10 @@ class Song
     @@all.sort_by {|song| song.name}
   end
 
-  def self.new_from_filename(name, artist_name)
+  def self.new_from_filename(file_name)
     #initializes a song and artist_name based on the filename format (FAILED - 1)
     song = self.new
-    song.name = name
-    song.artist_name = artist_name
-    file_name = "song.name - song.artist_name.mp3"
-    @@all << file.name
+
 
 
   end
