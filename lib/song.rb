@@ -47,12 +47,13 @@ class Song
   end
 
   def self.alphabetical
-    #binding.pry
     @@all.sort_by {|song| song.name}
   end
 
-  def self.new_from_filename
-
+  def self.new_from_filename(name, artist_name)
+    song = self.new
+    
+    
   end
 
   def self.destroy_all
