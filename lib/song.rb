@@ -51,6 +51,7 @@ class Song
   end
 
   def self.new_from_filename(name, artist_name)
+    #initializes a song and artist_name based on the filename format (FAILED - 1)
     song = self.new
     
 
